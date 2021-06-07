@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>landing</title>
+  <link rel="stylesheet" type="text/css" href="/public/bootstrap/css/bootstrap.css" />
+  <link rel="stylesheet" type="text/css" href="/public/bootstrap/css/bootstrap-theme.css" />
+</head>
+<body>
+<% include ../partials/navigation %>
+<div class="container">
+  <div class="jumbotron">
+    <h1>Bereit zum Download</h1>
+    <h2>Klicke auf Herunterladen</h2>
+  </div>
+  <div class="jumbotron">
+
+    <div class="panel-heading">
+      <h2><%= info %></h2>
+    </div>
+      <a href="/download/<%= id%>"><button class="btn btn-primary btn-block"><h2>Herunteladen</h2><p></p><p></p></button></a>
+  </div>
+</div>
+</body>
+</html>

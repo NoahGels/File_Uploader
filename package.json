@@ -1,0 +1,20 @@
+{
+  "name": "file_uploader",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "File_Uploader"
+  },
+  "author": "Noah Gels",
+  "license": "MIT",
+  "dependencies": {
+    "ejs": "^2.3.4",
+    "express": "^4.17.1",
+    "keygenerator": "^1.0.4"
+  }
+}
