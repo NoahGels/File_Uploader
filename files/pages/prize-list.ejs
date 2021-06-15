@@ -7,7 +7,12 @@
     <link rel="stylesheet" type="text/css" href="/public/bootstrap/css/bootstrap-theme.css"/>
 </head>
 <body>
-<div class="container">
+<style>
+    .con {
+        padding: 15px;
+    }
+</style>
+<div class="con">
     <div class="jumbotron">
         <h1>Preisliste</h1>
         <h2>Aktuell bei <b><%= `${cost * 2}`.replace('.', ',') %>€</b> pro Person, <b><%= `${cost}`.replace('.', ',') %>€</b> ohne Alkohol.
