@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>10d Preisliste</title>
+    <link rel="stylesheet" type="text/css" href="/public/bootstrap/css/bootstrap.css"/>
+    <link rel="stylesheet" type="text/css" href="/public/bootstrap/css/bootstrap-theme.css"/>
+</head>
+<body>
+<div class="container">
+    <div class="jumbotron">
+        <h1>Preisliste</h1>
+        <h2>Aktuell bei <b><%= `${cost * 2}`.replace('.', ',') %>€</b> pro Person, <b><%= `${cost}`.replace('.', ',') %>€</b> ohne Alkohol.
+            Die Gesamtkosten liegen bei <b><%= `${total}`.replace('.', ',') %>€</b></h2>
+    </div>
+
+    <% if(product) { %>
+        <div class="alert alert-success">
+            <b><%= product %></b> für <b><%= prize %>€</b> wurde hinzugefügt, lass dich vergolden
+        </div>
+    <% } %>
+    <% if(error) { %>
+        <div class="alert alert-danger">
+            Die Felder wurden falsch ausgefüllt, der <b>Preis</b> darf keine <b>Buchstaben</b> enthalten und muss
+            ausgefüllt sein, so geht das nicht Kinners
+        </div>
+    <% } %>
+    <div id="add-button" class="panel panel-default">
+        <div class="panel-heading">
+            <button class="btn btn-success" onclick="showForm()">
+                Item hinzufügen
+            </button>
+        </div>
+    </div>
+    <form id="form" method="GET" class="form-horizontal" action="/addItem">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3 class="panel-title">Daten hier eingeben</h3>
+            </div>
+            <div class="panel-body">
+                <div class="form-group">
+                    <label for="height" class="col-sm-2 control-label">
+                        Produkt
+                    </label>
+                    <div class="col-sm-10">
+                        <input name="product" type="text" class="form-control" id="product"/>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="height" class="col-sm-2 control-label">
+                        Preis (€)
+                    </label>
+                    <div class="col-sm-10">
+                        <input name="prize" type="text" class="form-control" id="prize"/>
+                    </div>
+                </div>
+            </div>
+            <div class="panel-footer">
+                <input type="submit" class="btn btn-primary" value="Absenden!"/>
+            </div>
+        </div>
+    </form>
+    <ul class="list-group">
+        <% for(var i = 0; i < items.length; i++) { %>
+            <li class="list-group-item"><p><b><%= items[i].prize %>€</b></p><%= items[i].product %></li>
+        <% } %>
+    </ul>
+</div>
+
+<script>
+
+    const form = document.getElementById('form')
+    const addButton = document.getElementById('add-button')
+
+    form.style.display = 'none'
+
+    function showForm() {
+        form.style.display = 'block'
+        addButton.style.display = 'none'
+    }
+</script>
+
+</body>
+</html>

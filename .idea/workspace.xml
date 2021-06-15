@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="16d47ed2-2119-4834-81d0-8e4e08baacaf" name="Default Changelist" comment="Initial commit" />
+    <list default="true" id="16d47ed2-2119-4834-81d0-8e4e08baacaf" name="Default Changelist" comment="Fixed navbar">
+      <change afterPath="$PROJECT_DIR$/files/pages/prize-list.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/files/products.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,8 +46,14 @@
       <recent name="C:\Users\mineh\Desktop\Projects\File_Uploader\files\uploads" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\mineh\Desktop\Projects\File_Uploader\public" />
       <recent name="C:\Users\mineh\Desktop\Projects\File_Uploader\files\pages" />
     </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="J" />
+    </option>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -55,6 +68,8 @@
       <workItem from="1623074016549" duration="3419000" />
       <workItem from="1623081117574" duration="284000" />
       <workItem from="1623081411725" duration="472000" />
+      <workItem from="1623094778039" duration="765000" />
+      <workItem from="1623760341420" duration="7387000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1623080761220</created>
@@ -63,14 +78,50 @@
       <option name="project" value="LOCAL" />
       <updated>1623080761221</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added favicon">
+      <created>1623094940689</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1623094940689</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Fixed favicon.ico">
+      <created>1623095279690</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1623095279690</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Fixed navbar">
+      <created>1623095520443</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1623095520443</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
+    <MESSAGE value="Added favicon" />
+    <MESSAGE value="Fixed favicon.ico" />
+    <MESSAGE value="Fixed navbar" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed navbar" />
   </component>
 </project>
