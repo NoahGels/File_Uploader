@@ -32,7 +32,7 @@ app.get('/preise', (req, res) => {
 
     let total = 0
     items.forEach((item) => total += item.prize)
-    const cost = total / 43
+    const cost = total / 26
 
     res.render('prize-list', {
         product: req.query.product,

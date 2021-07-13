@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="16d47ed2-2119-4834-81d0-8e4e08baacaf" name="Default Changelist" comment="Added Prize Calculator">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/pages/prize-list.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/files/pages/prize-list.ejs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/products.json" beforeDir="false" afterPath="$PROJECT_DIR$/files/products.json" afterDir="false" />
-    </list>
+    <list default="true" id="16d47ed2-2119-4834-81d0-8e4e08baacaf" name="Default Changelist" comment="Some Design fixes" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -66,7 +62,7 @@
       <workItem from="1623081117574" duration="284000" />
       <workItem from="1623081411725" duration="472000" />
       <workItem from="1623094778039" duration="765000" />
-      <workItem from="1623760341420" duration="8138000" />
+      <workItem from="1623760341420" duration="8311000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1623080761220</created>
@@ -103,7 +99,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623768074291</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Some Design fixes">
+      <created>1623768623437</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1623768623437</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -127,6 +130,7 @@
     <MESSAGE value="Fixed favicon.ico" />
     <MESSAGE value="Fixed navbar" />
     <MESSAGE value="Added Prize Calculator" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Prize Calculator" />
+    <MESSAGE value="Some Design fixes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Some Design fixes" />
   </component>
 </project>
