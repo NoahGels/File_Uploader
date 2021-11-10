@@ -11,7 +11,11 @@ app.set('view engine', 'ejs')
 app.set('views', 'files/pages')
 
 app.use("/public", express.static("public"));
-app.use('/favicon.ico', express.static('public/favicon.ico'))
+app.use('/favicon.ico', express.static('public/favicon.ico'));
+
+app.get('/lennartstinktnachscheiße', (req, res) => {
+    res.redirect('/erasmusfinal');
+})
 
 app.get('/download/:id', async (req, res) => {
 
