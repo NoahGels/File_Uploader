@@ -13,7 +13,8 @@ app.set('views', 'files/pages')
 app.use("/public", express.static("public"));
 app.use('/favicon.ico', express.static('public/favicon.ico'));
 
-app.get('/lennartstinktnachscheiße', (req, res) => {
+app.get('/lennartstinktnachscheisse', (req, res) => {
+    console.log('Hi');
     res.redirect('/erasmusfinal');
 })
 
